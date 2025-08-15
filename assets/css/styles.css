@@ -640,10 +640,12 @@ a {
     margin-top: 70px;
     padding: 65px 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .wrap-features-bottom .feature-left {
-    margin-top: 71px;
+    width: 49%;
 }
 
 .feature-img-bottom {
