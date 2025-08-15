@@ -638,7 +638,7 @@ a {
 
 .wrap-features-bottom {
     margin-top: 70px;
-    padding: 65px 0;
+    padding: 65px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
