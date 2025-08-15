@@ -128,14 +128,10 @@ a {
 
 .header .nav li {
     position: relative;
-}
-
-.header .nav li + li {
-    margin-left: 42px;
+    padding: 8px 21px;
 }
 
 .header .nav a {
-    padding: 8px 21px;
     color: #5f5b53;
     font-size: 1.6rem;
     font-weight: 400;
@@ -151,7 +147,7 @@ a {
 
 .header li.active::before {
     position: absolute;
-    bottom: 1px;
+    bottom: 9px;
     left: 22px;
     content: "";
     display: inline-block;
@@ -582,7 +578,8 @@ a {
 
 /* ================ Features ================ */
 .features {
-    margin-top: 200px;
+    margin-top: 135px;
+    padding: 65px 0;
     scroll-margin-top: 80px;
 }
 
@@ -640,7 +637,8 @@ a {
 /* features bottom */
 
 .wrap-features-bottom {
-    margin-top: 200px;
+    margin-top: 70px;
+    padding: 65px 0;
     display: flex;
 }
 
@@ -657,7 +655,7 @@ a {
 
 /* ================ Blog ================ */
 .blog {
-    margin-top: 200px;
+    margin-top: 135px;
     padding-bottom: 96px;
     background: #fffcf4;
     scroll-margin-top: -20px;
