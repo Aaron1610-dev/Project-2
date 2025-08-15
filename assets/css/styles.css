@@ -393,7 +393,7 @@ a {
     margin-top: 55px;
 }
 
-.blog .blog-item,
+.blog .body-item,
 .popular .body .list-item {
     display: flex;
     gap: 30px;
@@ -663,6 +663,16 @@ a {
     scroll-margin-top: -20px;
 }
 
+.blog .blog-list{
+    display: flex;
+    overflow: hidden;
+}
+
+.blog .blog-list .blog-item{
+    width: 100%;
+    flex-shrink: 0;
+}
+
 .blog .heading {
     padding-top: 96px;
 }
@@ -708,7 +718,7 @@ a {
     bottom: -12px;
     content: "";
     display: inline-block;
-    width: 160px;
+    width: calc(100% + 27px);
     height: 1px;
     border-radius: 0.5px;
     background: #e2dfda;
@@ -734,6 +744,8 @@ a {
 .blog-dot {
     background-color: #5f5b53;
 }
+
+
 
 /* ================ Footer ================ */
 .footer {
